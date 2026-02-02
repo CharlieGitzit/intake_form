@@ -27,7 +27,7 @@ button:hover{background:#0ea5e9}
 .links{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:15px}
 .links a{color:#7dd3fc;text-decoration:none}
 
-.export-section{text-align:center;margin:40px 0}
+.export-section{text-align:center;margin:40px 0; display: none}
 footer{text-align:center;padding:30px;background:#0f172a}
 .trust-line{margin-top:10px;font-size:.8rem;color:#94a3b8}
 
