@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Immigration Intake Experience</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <div class="logo">Intake Experience</div>
+    <nav>
+      <a href="#knowledge">Knowledge</a>
+      <a href="#chatbot">Intake Chat</a>
+      <a href="#library">Resources</a>
+    </nav>
+  </div>
+  <div class="hero-grid">
+    <div class="quote">“Some of the next questions may feel personal. You can take your time.”</div>
+    <div class="quote">“To make sure we record this correctly, do you recall the month and year?”</div>
+    <div class="quote">“You are not alone in this process. This is a safe starting place.”</div>
+  </div>
+</header>
+
+<main>
+
+<section id="knowledge" class="section knowledge">
+  <h2>Understanding the Intake Process</h2>
+  <p>This experience helps organize your information in a respectful, structured way that mirrors official immigration forms. We do not provide legal advice.</p>
+  <div class="disclaimer">
+    This platform is for informational and organizational purposes only. It does not determine eligibility, outcomes, or legal strategy.
+  </div>
+  <div class="stat">
+    Preparation and accurate records make consultations more effective and less stressful.
+  </div>
+</section>
+
+<section class="section resources-grid">
+  <div class="card">USCIS Forms Library</div>
+  <div class="card">Travel History Preparation</div>
+  <div class="card">Family Relationship Records</div>
+  <div class="card">Address History Guide</div>
+  <div class="card">Document Translation Info</div>
+  <div class="card">Public Charge Info</div>
+</section>
+
+<section id="chatbot" class="section chatbot-section">
+  <h2>Your Guided Intake</h2>
+  <p class="chat-intro">A calm, step-by-step intake experience to help you prepare before meeting a licensed professional.</p>
+
+  <div class="progress-wrapper">
+    <div class="progress-label">Intake Progress</div>
+    <div class="progress-bar">
+      <div id="progress-fill"></div>
+    </div>
+  </div>
+
+  <div class="chat-container">
+    <div id="chat-window"></div>
+    <div class="input-area">
+      <input type="text" id="user-input" placeholder="Type your answer here...">
+      <button id="send-btn">Send</button>
+    </div>
+  </div>
+</section>
+
+<section id="library" class="section library">
+  <h2>Additional Knowledge Library</h2>
+  <div class="links">
+    <a href="#">USCIS.gov</a>
+    <a href="#">I-94 Information</a>
+    <a href="#">Immigration Court Info</a>
+    <a href="#">Census Migration Data</a>
+    <a href="#">Public Records Preparation</a>
+  </div>
+</section>
+
+</main>
+
+<div class="export-section">
+  <button id="export-pdf">Export Intake Summary for Consultant</button>
+  <div id="readiness-score"></div>
+</div>
+
+<footer>
+  <div>Email: example@email.com</div>
+  <div>Phone: (000) 000-0000</div>
+  <div>© Intake Experience</div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
+
